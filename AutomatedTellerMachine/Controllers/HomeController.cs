@@ -8,10 +8,12 @@ namespace AutomatedTellerMachine.Controllers
 {
     public class HomeController : Controller
     {
+        // GET /home/index
         public ActionResult Index()
         {
             return View();
         }
+
 
         public ActionResult About()
         {
@@ -25,6 +27,11 @@ namespace AutomatedTellerMachine.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        }
+
+        public ActionResult Foo()
+        {
+            return View("About");
         }
     }
 }
