@@ -73,3 +73,7 @@ _[Ss]cripts
 *.nupkg
 *.ncrunchsolution
 *.dot[Cc]over
+
+AutomatedTellerMachine/App_Data/aspnet-AutomatedTellerMachine-20170228070851\.mdf
+
+AutomatedTellerMachine/App_Data/aspnet-AutomatedTellerMachine-20170228070851_log\.ldf
